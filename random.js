@@ -3,11 +3,11 @@
 
 // Math.random() devuelve número aleatorio entre 0 y 1.
 
-var numero = math.random()
+var numero = math.random();
+var str = 'mayor que 0.5';
 
 if (numero <= 0.5){
-  console.console.log('\n' + numero + 'menor que 0.5' + '\n');
+  str = 'menor que 0.5';
 }
-else {
-  console.console.log('\n' + numero + 'mayor que 0.5' + '\n');
-}
+
+console.console.log('\n' + numero + str + '\n');
